@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f4fa">
+  <title>IPL Matchday | Home</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body data-page="home">
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Matchday home">
+        <span class="brand-mark" aria-hidden="true">IPL</span>
+        <span class="brand-name">MATCHDAY</span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="/" aria-current="page">Home</a>
+        <a href="/booking">Book tickets</a>
+        <a href="/history">History <span class="nav-count" id="booking-count">0</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="home-hero" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <span class="eyebrow">INDIAN PREMIER LEAGUE · SEASON 2027</span>
+          <h1 id="page-title">The roar of matchday starts here.</h1>
+          <p>Pick your matchup, choose your stand and keep your IPL-inspired demo bookings together in one place.</p>
+          <div class="button-row">
+            <a class="button" href="/booking">Book tickets</a>
+            <a class="button button--light" href="/history">View booking history</a>
+          </div>
+        </div>
+
+        <div class="hero-showcase">
+          <div class="match-card">
+            <div class="match-meta">
+              <span>FEATURED SAMPLE MATCH</span>
+              <span class="match-format">T20</span>
+            </div>
+            <div class="matchup">
+              <div class="team-block">
+                <span class="team-crest" aria-hidden="true">CSK</span>
+                <strong>Chennai Super Kings</strong>
+              </div>
+              <span class="versus">VS</span>
+              <div class="team-block">
+                <span class="team-crest team-crest--away" aria-hidden="true">MI</span>
+                <strong>Mumbai Indians</strong>
+              </div>
+            </div>
+            <div class="fixture-details">
+              <span>Mar 28, 2027</span>
+              <span>Chennai</span>
+            </div>
+            <p class="sample-note">Illustrative fixture only — not an official IPL schedule or ticket sale.</p>
+          </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="how-heading">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">THREE QUICK STEPS</span>
+            <h2 id="how-heading">Your matchday, your way</h2>
+          </div>
+          <p><a href="/booking">Start a booking →</a></p>
+        </div>
+        <div class="steps-grid">
+          <article class="step-card">
+            <span class="step-number">01</span>
+            <h3>Choose a matchup</h3>
+            <p>Explore example fixtures and stadiums from across the league.</p>
+          </article>
+          <article class="step-card">
+            <span class="step-number">02</span>
+            <h3>Pick your stand</h3>
+            <p>Select a ticket category and see the estimated total in rupees.</p>
+          </article>
+          <article class="step-card">
+            <span class="step-number">03</span>
+            <h3>Check your history</h3>
+            <p>Find your saved demo bookings on the separate history page.</p>
+          </article>
+        </div>
+      </section>
+
+      <p class="storage-status" id="storage-status" role="alert" aria-live="polite"></p>
+      <p class="storage-note">Fan-made demo. Fixtures and prices are examples only; no real tickets, payments or reservations are provided.</p>
+    </main>
+  </div>
+</body>
+</html>
